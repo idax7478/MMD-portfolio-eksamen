@@ -1,0 +1,99 @@
+/* Forside*/
+
+body {
+  background-color: rgb(243, 232, 211);
+  margin: 4%;
+}
+li {
+  font-family: "Poiret One", cursive;
+  color: rgba(66, 65, 65, 0.815);
+}
+
+h1 {
+  font-family: "Abril Fatface", cursive;
+  justify-content: center;
+  color: rgb(66, 65, 65);
+  font-size: 60px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Abril Fatface", cursive;
+  color: rgb(66, 65, 65);
+}
+
+h3 {
+  font-family: "Poiret One", cursive;
+  justify-content: center;
+  color: rgba(66, 65, 65, 0.815);
+  font-size: 15px;
+  margin-top: -35px;
+  text-align: center;
+}
+
+p {
+  font-family: "Poiret One", cursive;
+  color: rgba(66, 65, 65, 0.815);
+}
+
+ul {
+  text-decoration: none;
+  display: flex;
+  overflow-x: auto;
+  list-style: none;
+  position: sticky;
+  justify-content: center;
+  font-family: "Poiret One", cursive;
+  color: rgba(66, 65, 65, 0.815);
+  float: left;
+  position: fixed;
+  top: 0px;
+  left: -5px;
+  width: 100%;
+  margin: 0px;
+  gap: 30px;
+  font-size: 18px;
+  background-color: rgb(243, 232, 211);
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  color: rgba(66, 65, 65, 0.815);
+  font-family: "Poiret One", cursive;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+#menuknap {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  ul {
+    display: block;
+    text-align: left;
+    position: relative;
+  }
+  #menuknap {
+    width: 20px;
+    display: inline-block;
+  }
+  #menu {
+    list-style-type: none;
+    transform-origin: top left;
+  }
+  .hidden {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+}

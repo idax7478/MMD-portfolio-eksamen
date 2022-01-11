@@ -1,0 +1,377 @@
+.section1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding-bottom: 150px;
+  margin-bottom: 0px;
+  gap: 3rem;
+}
+.box1 {
+  grid-column: 1/2;
+}
+.box2 {
+  grid-column: 2/2;
+}
+.billeder1 {
+  width: 550px;
+  border: 5px solid rgb(66, 65, 65);
+}
+/* ----------------------------------------------------------------------------*/
+.section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding-bottom: 150px;
+  margin-bottom: 0px;
+  gap: 3rem;
+}
+.billeder2 {
+  width: 600px;
+  border: 5px solid rgb(66, 65, 65);
+}
+/* ----------------------------------------------------------------------------*/
+.section3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding-bottom: 150px;
+  margin-bottom: 0px;
+  gap: 3rem;
+}
+.billeder3 {
+  width: 700px;
+  border: 5px solid rgb(66, 65, 65);
+}
+/* ----------------------------------------------------------------------------*/
+.section4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding-bottom: 40px;
+  margin-bottom: 0px;
+  gap: 3rem;
+}
+.box3 {
+  grid-column: 3/3;
+}
+.billeder4 {
+  width: 400px;
+  border: 5px solid rgb(66, 65, 65);
+}
+/* ----------------------------------------------------------------------------*/
+.section5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding-bottom: 150px;
+  margin-bottom: 0px;
+  gap: 6.7rem;
+}
+.billeder5 {
+  width: 600px;
+  border: 5px solid rgb(66, 65, 65);
+}
+/* ----------------------------------------------------------------------------*/
+.section6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding-bottom: 150px;
+  margin-bottom: 0px;
+  gap: 3rem;
+}
+.billeder6 {
+  width: 430px;
+  border: 5px solid rgb(66, 65, 65);
+}
+/* ----------------------------------------------------------------------------*/
+.section7 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding-bottom: 150px;
+  gap: 2rem;
+}
+.billeder7 {
+  width: 500px;
+  border: 5px solid rgb(66, 65, 65);
+}
+.billeder8 {
+  width: 350px;
+  border: 5px solid rgb(66, 65, 65);
+}
+.billeder9 {
+  width: 400px;
+  border: 5px solid rgb(66, 65, 65);
+}
+.billeder10 {
+  border: 5px solid rgb(66, 65, 65);
+}
+
+.billeder11 {
+  width: 500px;
+  border: 5px solid rgb(66, 65, 65);
+}
+.billeder12 {
+  width: 400px;
+  border: 5px solid rgb(66, 65, 65);
+}
+.billeder13 {
+  width: 500px;
+  border: 5px solid rgb(66, 65, 65);
+}
+.billeder14 {
+  width: 350px;
+  border: 5px solid rgb(66, 65, 65);
+}
+
+.box4 {
+  grid-column: 1/2;
+  grid-row: 1/1;
+}
+.box5 {
+  grid-column: 2/2;
+  grid-row: 1/1;
+}
+.box6 {
+  grid-column: 3/3;
+  grid-row: 1/1;
+}
+
+.box7 {
+  grid-column: 1/2;
+  grid-row: 2/2;
+}
+.box8 {
+  grid-column: 2/3;
+  grid-row: 2/2;
+}
+.box9 {
+  grid-column: 3/3;
+  grid-row: 2/2;
+}
+
+.box10 {
+  grid-column: 1/2;
+  grid-row: 3/3;
+}
+.box11 {
+  grid-column: 2/3;
+  grid-row: 3/3;
+}
+.box12 {
+  grid-column: 3/3;
+  grid-row: 3/3;
+}
+
+.box13 {
+  grid-column: 1/2;
+  grid-row: 4/4;
+}
+.box14 {
+  grid-column: 2/3;
+  grid-row: 4/4;
+}
+.box15 {
+  grid-column: 3/3;
+  grid-row: 4/4;
+}
+/* ----------------------------------------------------------------------------*/
+.section8 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding-bottom: 150px;
+  gap: 2rem;
+}
+.billeder15 {
+  width: 600px;
+  border: 5px solid rgb(66, 65, 65);
+}
+/* ----------------------------------------------------------------------------*/
+.section9 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding-bottom: 150px;
+  gap: 2rem;
+}
+.billeder16 {
+  width: 700px;
+  border: 5px solid rgb(66, 65, 65);
+}
+/* ----------------------------------------------------------------------------*/
+.section10 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding-bottom: 150px;
+  gap: 2rem;
+}
+.billeder17 {
+  width: 800px;
+  border: 5px solid rgb(66, 65, 65);
+}
+/* ----------------------------------------------------------------------------*/
+.section11 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding-bottom: 150px;
+  gap: 3rem;
+}
+.billeder18 {
+  width: 800px;
+  border: 5px solid rgb(66, 65, 65);
+}
+.section12 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding-bottom: 150px;
+  gap: 3rem;
+}
+.billeder19 {
+  width: 500px;
+  border: 5px solid rgb(66, 65, 65);
+}
+.section13 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding-bottom: 150px;
+  gap: 3rem;
+}
+.billeder20 {
+  width: 600px;
+  border: 5px solid rgb(66, 65, 65);
+}
+/* ----------------------------------------------------------------------------*/
+.section14 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding-bottom: 150px;
+  gap: 3rem;
+}
+@media (max-width: 800px) {
+}
+
+@media (max-width: 600px) {
+  .section1 {
+    display: flex;
+    display: inline;
+  }
+  .billeder1 {
+    width: 340px;
+  }
+
+  .section2 {
+    display: flex;
+    display: inline;
+  }
+  .billeder2 {
+    width: 340px;
+  }
+
+  .section3 {
+    display: flex;
+    display: inline;
+  }
+  .billeder3 {
+    width: 340px;
+  }
+
+  .section4 {
+    display: flex;
+    display: inline;
+  }
+  .billeder4 {
+    width: 340px;
+  }
+  .billeder5 {
+    width: 340px;
+  }
+  .section5 {
+    display: flex;
+    display: inline;
+  }
+
+  .section6 {
+    display: flex;
+    display: inline;
+  }
+  .billeder6 {
+    width: 340px;
+  }
+
+  .section7 {
+    display: flex;
+    display: inline;
+  }
+  .billeder7 {
+    width: 340px;
+  }
+  .billeder8 {
+    width: 340px;
+  }
+  .billeder9 {
+    width: 340px;
+  }
+  .billeder10 {
+    width: 340px;
+  }
+  .billeder11 {
+    width: 340px;
+  }
+  .billeder12 {
+    width: 340px;
+  }
+  .billeder13 {
+    width: 340px;
+  }
+
+  .section9 {
+    display: flex;
+    display: inline;
+  }
+  .billeder16 {
+    width: 340px;
+  }
+
+  .section10 {
+    display: flex;
+    display: inline;
+  }
+  .billeder17 {
+    width: 340px;
+  }
+
+  .section11 {
+    display: flex;
+    display: inline;
+  }
+  .billeder18 {
+    width: 340px;
+  }
+  .billeder19 {
+    width: 340px;
+  }
+
+  .section12 {
+    display: flex;
+    display: inline;
+  }
+  .billeder20 {
+    width: 340px;
+  }
+
+  .section13 {
+    display: flex;
+    display: inline;
+  }
+  .section14 {
+    display: flex;
+    display: inline;
+  }
+}
